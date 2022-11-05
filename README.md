@@ -1,3 +1,15 @@
+# AWS CDK で API Gateway の REST API を作成する
+
+https://maku.blog/p/k7eoer5/
+
+### command
+
+#### make a cdk project (la ts)
+> cdk init app --language typescript
+
+#### develop lambda function (la ts)
+> npm install --save-dev @types/aws-lambda
+
 # Welcome to your CDK TypeScript project!
 
 This is a blank project for TypeScript development with CDK.
