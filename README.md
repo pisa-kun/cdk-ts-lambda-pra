@@ -16,6 +16,19 @@ https://docs.aws.amazon.com/cdk/v2/guide/migrating-v2.html
 #### develop lambda function (la ts)
 > npm install --save-dev @types/aws-lambda
 
+### error memo
+
+```
+Error: spawnSync docker ENOENT
+ at Object.spawnSync (node:internal/child_process:1083:20)
+    at Object.spawnSync (node:child_process:812:24)
+    at dockerExec
+...
+```
+
+#### resolve process
+> npm install --save-dev esbuild@0
+
 # Welcome to your CDK TypeScript project!
 
 This is a blank project for TypeScript development with CDK.
