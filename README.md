@@ -4,6 +4,12 @@ https://maku.blog/p/k7eoer5/
 
 ### command
 
+#### create cdk v1 to v2
+> npx aws-cdk@2.x init app --language typescript
+
+#### immigrate v2
+https://docs.aws.amazon.com/cdk/v2/guide/migrating-v2.html
+
 #### make a cdk project (la ts)
 > cdk init app --language typescript
 
