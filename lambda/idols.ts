@@ -4,6 +4,8 @@ const IDOLS = [
     {id: "1", name: "morino rinze"},
     {id: "2", name: "saijo jyuri"},
     {id: "3", name: "arisugawa natsuha"},
+    {id: "4", name: "sonoda chiyoko"},
+    {id: "4", name: "komiya kaho"},
 ]
 
 /** GET /idols */
